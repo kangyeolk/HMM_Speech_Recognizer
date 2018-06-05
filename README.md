@@ -27,14 +27,26 @@ Most speech recognition systems use a language model that makes the Markov assum
 
 * Model Structure
 
-<p align="center"><img width="100%" src="image/main_model.png" /></p>
+<p align="center"><img width="100%" src="img/main_model.png" /></p>
 
+### code
 
-
+```header.py``` : GMM Parameters
+```main.py``` : Doing Predict
+```model.py``` : Construct phone HMMs, word HMMs, final structure
+```util.py``` : Some functions to compute
 
 
 ### Prerequisites
 
 * [Python3.5+](https://www.continuum.io/downloads)
 
-### Usage
+### Usage & Example
+
+```shell
+python main.py
+```
+
+### Result
+
+<p align="center"><img width="100%" src="img/result.png" /></p>

@@ -27,7 +27,7 @@ Most speech recognition systems use a language model that makes the Markov assum
 
 * Model Structure
 
-<p align="center"><img width="100%" src="img/main_model.png" /></p>
+<p align="center"><img width="100%" src="img/main_model.PNG" /></p>
 
 ### code
 
@@ -49,4 +49,4 @@ python main.py
 
 ### Result
 
-<p align="center"><img width="100%" src="img/result.png" /></p>
+<p align="center"><img width="100%" src="img/result.PNG" /></p>
